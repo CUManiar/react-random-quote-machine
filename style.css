@@ -1,0 +1,23 @@
+.App {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.random-quote-box {
+    height: 90%;
+    min-height: 100vh;
+    background-color: white;
+    text-align: center;
+
+    #quote-box {
+        margin: 30% auto;
+        box-shadow: 0px 0px 10px 5px #aac8ce;
+        padding: 3rem;
+        border: 0;
+        border-radius: 20px;
+    }
+    #tweet-quote {
+        margin-left: 5rem;
+    }
+}
